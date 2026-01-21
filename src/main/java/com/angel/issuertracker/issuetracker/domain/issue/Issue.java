@@ -1,14 +1,8 @@
-package com.tunombre.issuetracker.domain.issue;
+package com.angel.issuertracker.issuetracker.domain.issue;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
 
-public enum IssueStatus {
-    OPEN,
-    IN_PROGRESS,
-    RESOLVED,
-    CLOSED
-}
 public class Issue {
 
     private UUID id;
